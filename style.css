@@ -7,8 +7,8 @@
 }
 
 body {
-    height: 100%;
     width: 100%;
+    height: 100%;
     color: #ededed;
     background: #081b29;
 }
@@ -25,6 +25,7 @@ body {
     font-family: cyberpunk2;
     src: url(cyber2.ttf);
 }
+
 .header {
     position: fixed;
     top: 0;
@@ -88,7 +89,7 @@ body {
 }
 
 .home-img img {
-    border-radius: 55%;
+    border-radius: 60%;
     box-shadow: 1px 1px 20px #a2d9bdf7,
         1px 1px 40px #abc4e3f7,
         1px 1px 80px #b9cfe3f7,
@@ -101,7 +102,7 @@ body {
 
 @media screen and (max-width: 940px) {
     .home-img img {
-        width: 55vw;
+        width: 35vw;
         height: auto;
         /* Maintain aspect ratio */
     }
@@ -112,10 +113,6 @@ body {
         justify-content: center;
         align-items: center;
         text-align: center;
-        width: 100%;
-        position: relative;
-        background-size: cover;
-        background-position: center;
     }
 
     .header {
@@ -124,8 +121,8 @@ body {
         position: fixed;
         top: 0;
         left: 0;
-        width: 90%;
-        padding: 20px 5%;
+        width: 100%;
+        padding: 20px 10%;
         display: flex;
         justify-content: space-between;
         align-items: center;
