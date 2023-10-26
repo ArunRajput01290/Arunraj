@@ -88,7 +88,7 @@ body {
 }
 
 .home-img img {
-    border-radius: 60%;
+    border-radius: 55%;
     box-shadow: 1px 1px 20px #a2d9bdf7,
         1px 1px 40px #abc4e3f7,
         1px 1px 80px #b9cfe3f7,
@@ -101,7 +101,7 @@ body {
 
 @media screen and (max-width: 940px) {
     .home-img img {
-        width: 45vw;
+        width: 55vw;
         height: auto;
         /* Maintain aspect ratio */
     }
@@ -112,6 +112,10 @@ body {
         justify-content: center;
         align-items: center;
         text-align: center;
+        width: 100%;
+        position: relative;
+        background-size: cover;
+        background-position: center;
     }
 
     .header {
