@@ -120,8 +120,8 @@ body {
         position: fixed;
         top: 0;
         left: 0;
-        width: 100%;
-        padding: 20px 10px;
+        width: 90%;
+        padding: 20px 5%;
         display: flex;
         justify-content: space-between;
         align-items: center;
