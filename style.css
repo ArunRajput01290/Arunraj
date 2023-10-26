@@ -101,7 +101,7 @@ body {
 
 @media screen and (max-width: 940px) {
     .home-img img {
-        width: 35vw;
+        width: 45vw;
         height: auto;
         /* Maintain aspect ratio */
     }
