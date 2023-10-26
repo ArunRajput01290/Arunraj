@@ -7,6 +7,8 @@
 }
 
 body {
+    height: 100%;
+    width: 100%;
     color: #ededed;
     background: #081b29;
 }
