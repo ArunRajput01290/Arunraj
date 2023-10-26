@@ -25,7 +25,11 @@ body {
     font-family: cyberpunk2;
     src: url(cyber2.ttf);
 }
-
+@media screen and (max-width: 440px) {
+    header {
+        width: 100%;
+    }
+  }
 .header {
     position: fixed;
     top: 0;
