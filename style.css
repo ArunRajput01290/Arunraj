@@ -15,10 +15,12 @@ body {
     font-family: cyberpunk;
     src: url(cyber.ttf);
 }
+
 @font-face {
     font-family: cyberpunk1;
     src: url(cyber1.ttf);
 }
+
 @font-face {
     font-family: cyberpunk2;
     src: url(cyber2.ttf);
@@ -28,7 +30,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 90%;
+    width: 100%;
     padding: 20px 10%;
     background: transparent;
     display: flex;
@@ -92,7 +94,7 @@ body {
         1px 1px 40px #abc4e3f7,
         1px 1px 80px #b9cfe3f7,
         1px 1px 160px #98a5d1f7;
-    
+
     opacity: 0;
     animation: home-imgs 2s ease forwards;
     animation-delay: .7s;
@@ -111,6 +113,7 @@ body {
         justify-content: center;
         align-items: center;
         text-align: center;
+        overflow: hidden;
     }
 
     .header {
@@ -488,8 +491,12 @@ section {
 }
 
 .container1 {
-    width: 600px;
-    padding: 75px 90px;
+    width: 100%; /* Make it full-width for responsiveness */
+    max-width: 600px; /* Set a maximum width for content */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 75px 20px; /* Adjust padding as needed */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+
 }
 
 .heading1 {
@@ -767,7 +774,12 @@ section {
 .main-text h2 span {
     color: #0ef;
 }
-
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 .portfolio-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(359px, auto));
@@ -954,6 +966,13 @@ section {
     box-shadow: 0 0 20px #0ef;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
 .contact-form {
     text-align: center;
 }
@@ -1068,8 +1087,43 @@ form textarea {
         content: "Programmer";
     }
 }
-#msg{
+
+#msg {
     color: #61b752;
     font-size: 24px;
     display: block;
+}
+
+#phoneValidationMessage {
+    color: #61b752;
+    font-size: 24px;
+    display: block;
+}
+
+/* Project  */
+.hidden {
+    display: none;
+}
+
+/* Style the "View More" button */
+.toggle-button {
+    display: block;
+    margin: 0 auto;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 26px;
+    border: none;
+    cursor: pointer;
+    font-size: x-large;
+    font-family: cursive;
+    border-radius: 12px;
+    margin-top: -55px;
+}
+
+.toggle-button:hover {
+    box-shadow: 0 0 5px rgba(93, 43, 185, 0.747),
+        0 0 25px rgb(116, 34, 223),
+        0 0 50px rgb(7, 98, 201),
+        0 0 100px rgb(3, 93, 228),
+        0 0 200px rgb(198, 65, 238);
 }
