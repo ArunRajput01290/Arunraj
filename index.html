@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arun rajput</title>
-    <link rel="icon" href="aboutside.jpg" type="image/png">
+    <link rel="icon" href="image/aboutside.jpg" type="image/png">
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
@@ -41,13 +41,13 @@
                         class="bx bxl-twitter"></i></a>
                 <a href="#" target="_blank" style="--i:10"><i class='bx bxl-linkedin'></i></a>
                 <a href="#" target="_blank" style="--i:11"><i class='bx bxl-quora'></i></a>
-<!--                 <a href="#" target="_blank" style="--i:12"><i class='bx bxl-discord'></i></a> -->
+                <a href="#" target="_blank" style="--i:12"><i class='bx bxl-discord'></i></a>
                 <!-- <a href="#" target="_blank" style="--i:13"><i class='bx bxl-google-plus'></i></a> -->
             </div>
             <a href="#contact" class="btn-box">Contact Me</a>
         </div>
         <div class="home-img">
-            <img src="homeside.jpg" alt="my image" width="450px">
+            <img src="image/homeside.jpg" alt="my image" width="450px">
         </div>
     </section>
 
@@ -55,7 +55,7 @@
     <section class="about" id="about">
         <div class="aboutflex">
             <div class="about-img">
-                <img src="aboutside.jpg" alt="about" width="540" height="550">
+                <img src="image/aboutside.jpg" alt="about" width="540" height="550">
             </div>
             <div class="about-content">
                 <h2>About <span>Me</span></h2>
@@ -200,26 +200,28 @@
     </section>
 
     <section>
-        <div id="portfolio" id="project">
-            <div class="main-text" id="project">
-                <h2>Latest <span>project</span></h2>
+        <div id="portfolio">
+            <div class="main-text">
+                <h2>Latest <span>projects</span></h2>
 
                 <div class="portfolio-content">
+                    <!-- Project 1 -->
                     <div class="row">
                         <div class="slideshow">
-                            <img src="vinayak 2.0.png" alt="project">
-                            <img src="vinayak 1.png" alt="project">
-                            <img src="vinayak 3.png" alt="project">
+                            <img src="image/vinayak 2.0.png" alt="project">
+                            <img src="image/vinayak 1.png" alt="project">
+                            <img src="image/vinayak 3.png" alt="project">
                         </div>
                         <div class="layer">
                             <h2>E-commerce Website</h2>
                         </div>
                     </div>
-                    <a href="https://xzqiiwtmbjlb4kwwrofatg.on.drv.tw/bubble game/">
+                    <a href="https://xzqiiwtmbjlb4kwwrofatg.on.drv.tw/bubble game/" target="_blank">
+                        <!-- Project 2 -->
                         <div class="row">
                             <div class="slideshow">
-                                <img src="Bubble 1.png" alt="pr">
-                                <img src="Bubble 2.png" alt="pr">
+                                <img src="image/Bubble 1.png" alt="pr">
+                                <img src="image/Bubble 2.png" alt="pr">
                             </div>
                             <div class="layer">
                                 <h2>Bubble Game</h2>
@@ -227,20 +229,41 @@
                         </div>
                     </a>
                     <a href="https://arunrajput.pythonanywhere.com/" target="_blank">
+                        <!-- Project 3 -->
                         <div class="row">
                             <div class="slideshow">
-                                <img src="blog 1.png" alt="project">
-                                <img src="blog 2.png" alt="project">
-                                <img src="blog 3.png" alt="project">
+                                <img src="image/blog 1.png" alt="project">
+                                <img src="image/blog 2.png" alt="project">
+                                <img src="image/blog 3.png" alt="project">
                             </div>
                             <div class="layer">
                                 <h2>Blog Website</h2>
                             </div>
                         </div>
                     </a>
+
+                    <!-- Hidden projects -->
+                    <a href="https://arundp.pythonanywhere.com/" target="_blank">
+                        <div class="hidden">
+                            <!-- Project 4 (hidden) -->
+                            <div class="row">
+                                <div class="slideshow">
+                                    <img src="image/ssc3.png" alt="project">
+                                    <img src="image/ssc2.png" alt="project">
+                                </div>
+                                <div class="layer">
+                                    <h2>SSC PORTAL WEBSITE</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
+        <!-- "View More" button to show hidden projects -->
+        <button id="view-more-button" class="toggle-button" onclick="toggleProjects()">View More</button>
+        <button id="view-less-button" class="toggle-button" style="display: none" onclick="toggleProjects()">View
+            Less</button>
     </section>
 
     <section class="Contact" id="contact">
@@ -253,19 +276,31 @@
                     target="_blank" style="text-decoration: none;">arunrajput01290@gmail.com</a> . Whether it's web
                 development, design, or any tech-related endeavor, I'm here to turn your vision into reality. Don't
                 hesitate – let's get started today!</p>
-        </div>
-
-        <div class="contact-form">
-            <form name="submit-to-google-sheet">
-                <input type="text" name="Name" placeholder="Enter Your Name" required>
-                <input type="email" name="Email" placeholder="Enter Your Email" required>
-                <input type="text" name="Subject" placeholder="Enter Your Subject">
-                <textarea name="Message" id="Message" cols="40" rows="10" placeholder="Enter Your Message"
-                    required></textarea>
-                <input type="submit" value="submit" class="send">
-            </form>
-            <span id="msg"></span>
-        </div>
+            <!-- <div class="contact-list">
+                <li>contact@gmail.com</li>
+                <li>7668279903</li>
+                <a href="https://www.instagram.com/arunrajput64/" target="_blank" style="--i:7"><i
+                        class="bx bxl-instagram"></i></a>
+                <a href="https://wa.me/917668279903" target="_blank" style="--i:8"><i class="bx bxl-whatsapp"></i></a>
+                <a href="https://twitter.com/Arunrajput64" target="_blank" style="--i:9"><i
+                        class="bx bxl-twitter"></i></a>
+                <a href="#" target="_blank" style="--i:10"><i class='bx bxl-linkedin'></i></a>
+            </div> -->
+            <div class="center">
+                <div class="contact-form">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="tel" name="Phone" id="mobileNumberInput" placeholder="Enter Your Mobile Number"
+                            required>
+                        <input type="email" name="Email" placeholder="Enter Your Email" required>
+                        <input type="text" name="Subject" placeholder="Enter Your Subject">
+                        <textarea name="Message" id="Message" cols="40" rows="10" placeholder="Enter Your Message"
+                            required></textarea>
+                        <input type="submit" value="Submit" class="send">
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
     </section>
     <div class="last-text">
         <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, odio!</p> -->
@@ -282,6 +317,7 @@
     <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i> </a>
 
     <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/libphonenumber-js/1.7.30/libphonenumber-js.min.js"></script>
 </body>
 
 </html>
