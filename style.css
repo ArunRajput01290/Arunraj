@@ -364,6 +364,10 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+    .sub-title {
+    text-align: center;
+    font-size: 20px;
+    }
     .aboutflex {
         flex-direction: row;
     }
@@ -399,7 +403,7 @@ body {
 
 .sub-title {
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .sub-title span {
@@ -407,7 +411,7 @@ body {
 }
 
 .container {
-    padding: 0;
+    padding: 2%;
 }
 
 
