@@ -74,6 +74,7 @@ body {
     position: relative;
     width: 100%;
     justify-content: space-between;
+    height: 100vh;
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS81qy0f9BrdJ9bjZIuTeVZ_FjJNCuffPy71SD-6TjU&s) no-repeat;
     background-size: cover;
     background-position: center;
@@ -101,7 +102,7 @@ body {
 
 @media screen and (max-width: 940px) {
     .home-img img {
-        width: 36vw;
+        width: 75vw;
         height: auto;
         /* Maintain aspect ratio */
     }
@@ -130,6 +131,25 @@ body {
         font-family: cyberpunk;
     }
 
+}
+
+
+/* For screens up to 640px wide */
+@media screen and (max-width: 640px) {
+    .home-img img {
+        width: 90vw;
+        height: auto;
+        /* Maintain aspect ratio */
+    }
+}
+
+/* For screens up to 320px wide */
+@media screen and (max-width: 320px) {
+    .home-img img {
+        width: 100%;
+        height: auto;
+        /* Maintain aspect ratio */
+    }
 }
 
 
@@ -363,11 +383,51 @@ body {
     margin-bottom: 5%;
 }
 
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 940px) {
+    .about-content {
+        width: 100%;
+        padding: 4%;
+    }
+
+    .about-content h2 {
+        font-size: 5vw;
+    }
+
+    .about-content h4 {
+        font-size: 4vw;
+    }
+
+    .about-content p {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .about-content {
+        padding: 6%;
+    }
+
+    .about-content h2 {
+        font-size: 6vw;
+    }
+
+    .about-content h4 {
+        font-size: 5vw;
+    }
+
+    .about-content p {
+        font-size: 4vw;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .sub-title {
         text-align: center;
         font-size: 14px;
     }
+
     .aboutflex {
         flex-direction: row;
     }
@@ -411,7 +471,7 @@ body {
 }
 
 .container {
-    padding: 2%;
+    padding: 3%;
 }
 
 
