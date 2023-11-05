@@ -113,7 +113,8 @@ body {
         justify-content: center;
         align-items: center;
         text-align: center;
-        overflow: hidden;
+        overflow: auto;
+        height: 150vh;
     }
 
     .header {
@@ -123,7 +124,7 @@ body {
         top: 0;
         left: 0;
         width: 100%;
-        padding: 20px 10%;
+        padding: 20px 0%;
         display: flex;
         justify-content: space-between;
         align-items: center;
