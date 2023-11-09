@@ -1195,3 +1195,62 @@ form textarea {
         0 0 100px rgb(3, 93, 228),
         0 0 200px rgb(198, 65, 238);
 }
+
+
+/* Style the container element */
+.last-text {
+    background: rgb(7, 85, 91);
+    margin-top: 5%;
+}
+.elementor-element{
+    background: rgb(7, 85, 91);
+}
+.elementor-element-1653ed8 {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px 10%;
+  }
+  
+  /* Style the heading element */
+  .elementor-element-e9cb1fe {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .elementor-heading-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Style the sitemap element */
+  .elementor-element-e09c53d {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .elementor-sitemap-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .elementor-sitemap-list {
+    margin-bottom: 20px;
+  }
+  
+  .elementor-sitemap-item {
+    margin-bottom: 10px;
+  }
+  
+  .elementor-sitemap-item a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .elementor-sitemap-item a:hover {
+    color: #000;
+  }
+
+  
