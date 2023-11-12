@@ -7,6 +7,8 @@
 }
 
 body {
+    width: 100%;
+    height: 100%;
     color: #ededed;
     background: #081b29;
 }
@@ -27,7 +29,7 @@ body {
 }
 
 .header {
-    position: fixed;
+    /* position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -36,8 +38,17 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
+    z-index: 100; */
     font-family: cyberpunk;
+}
+
+nav {
+    box-shadow: 
+    1px 1px 20px #303231f7,
+     1px 1px 40px #545658f7, 
+     1px 1px 80px #346693f7, 
+     1px 1px 160px #e9e9e9f7;
+    z-index: 100;
 }
 
 .logo {
@@ -114,20 +125,23 @@ body {
         align-items: center;
         text-align: center;
         overflow: auto;
+        height: 150vh;
     }
-
+    .panel {
+        width: 70%;
+    }
     .header {
-        font-size: 10px;
+        /* font-size: 10px;
         background: rgba(0, 0, 255, 0.116);
         position: fixed;
         top: 0;
         left: 0;
         width: 100%;
-        padding: 20px 10%;
+        padding: 20px 0%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        z-index: 100;
+        z-index: 100; */
         font-family: cyberpunk;
     }
 
@@ -140,6 +154,9 @@ body {
         width: 90vw;
         height: auto;
         /* Maintain aspect ratio */
+    }
+    .panel {
+        width: 70%;
     }
 }
 
@@ -238,6 +255,7 @@ body {
     text-align: center;
     background: rgb(7, 85, 91);
     font-weight: 300;
+    /* margin-top: 60px; */
 }
 
 .home-sci-fi a:hover {
@@ -385,6 +403,9 @@ body {
 
 /* Media Queries for responsiveness */
 @media screen and (max-width: 940px) {
+    .panel {
+        width: 70%;
+    }
     .about-content {
         width: 100%;
         padding: 4%;
@@ -469,7 +490,7 @@ body {
     color: #0ef;
 }
 
-.container {
+.container2 {
     padding: 3%;
 }
 
@@ -1101,6 +1122,7 @@ form textarea {
     margin-top: 70px;
 }
 
+
 .top {
     position: fixed;
     bottom: 2.1rem;
@@ -1195,61 +1217,80 @@ form textarea {
         0 0 200px rgb(198, 65, 238);
 }
 
-
 /* Style the container element */
 .last-text {
     background: rgb(7, 85, 91);
     margin-top: 5%;
 }
-.elementor-element{
+
+.elementor-element {
     background: rgb(7, 85, 91);
 }
+
 .elementor-element-1653ed8 {
     max-width: 1140px;
     margin: 0 auto;
     padding: 20px 10%;
-  }
-  
-  /* Style the heading element */
-  .elementor-element-e9cb1fe {
+}
+
+/* Style the heading element */
+.elementor-element-e9cb1fe {
     text-align: center;
     margin-bottom: 20px;
-  }
-  
-  .elementor-heading-title {
+}
+
+.elementor-heading-title {
     font-size: 24px;
     font-weight: bold;
-  }
-  
-  /* Style the sitemap element */
-  .elementor-element-e09c53d {
+}
+
+/* Style the sitemap element */
+.elementor-element-e09c53d {
     list-style: none;
     padding: 0;
     margin: 0;
-  }
-  
-  .elementor-sitemap-title {
+}
+
+.elementor-sitemap-title {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
-  }
-  
-  .elementor-sitemap-list {
+}
+
+.elementor-sitemap-list {
     margin-bottom: 20px;
-  }
-  
-  .elementor-sitemap-item {
+}
+
+.elementor-sitemap-item {
     margin-bottom: 10px;
-  }
-  
-  .elementor-sitemap-item a {
+}
+
+.elementor-sitemap-item a {
     text-decoration: none;
     color: #fff;
     font-size: 16px;
-  }
-  
-  .elementor-sitemap-item a:hover {
-    color: #000;
-  }
+}
 
-  
+.elementor-sitemap-item a:hover {
+    color: #000;
+}
+
+.panel{
+    background-color: #0ef;
+    width: 60%;
+    border-radius: 40px;
+    height: 65px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    position: fixed;
+    bottom: 0;
+}
+.logoss{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
