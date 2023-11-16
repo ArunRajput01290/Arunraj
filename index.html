@@ -4,21 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arun rajput</title>
-    <link rel="icon" href="aboutside.jpg" type="image/png">
+    <title>Arti rajput</title>
+    <link rel="icon" href="image/2339.jpg" type="image/png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" id="astra-child-theme-css-css"
-        href="https://www.heshtechnologies.com/wp-content/themes/astra-child/style.css?ver=1.0.0" media="all" />
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 
 <body>
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Arun Rajput</a>
+            <a class="navbar-brand" href="/"> <img src="image/Web_Photo_Editor.jpg" alt="logo"
+                    style="border-radius: 20%;" height="60px" width="60px"> Arti Rajput</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,69 +28,123 @@
                         <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact Us</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#skills">Skills</a>
+                        <a href="" class="nav-link" type="button" class="btn btn-outline-primary" data-toggle="modal"
+                            data-target="#exampleModal" data-whatever="@mdo">Book Appointment</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#project">Project</a>
+                        <a class="nav-link" href="#price">Price List</a>
                     </li>
                 </ul>
             </div>
         </nav>
-
-        <!-- <nav class="navbar">
-            <a href="#home" style="--i:1" class="active">Home</a>
-            <a href="#about" style="--i:2">About</a>
-            <a href="#services" style="--i:3">services</a>
-            <a href="#skills" style="--i:4">skills</a>
-            <a href="#project" style="--i:4">project</a>
-            <a href="#contact" style="--i:5">Contact</a>
-        </nav> -->
     </header>
     <section class="home" id="home">
         <div class="home-content">
             <h3>Hello,It's Me</h3>
-            <h1 style="font-family: cyberpunk1;">Arun Rajput</h1>
+            <h1 style="font-family: cyberpunk1;">Arti Rajput</h1>
+            <p>i'm a Makeup Artist</p>
             <div class="animated-text">
-                I'm a <span></span>
+                <span></span>
             </div>
-            <p>i'm a web developer</p>
 
             <div class="home-sci">
                 <a href="https://www.instagram.com/arunrajput64/" target="_blank" style="--i:7"><i
                         class="bx bxl-instagram"></i></a>
-                <a href="https://wa.me/917668279903" target="_blank" style="--i:8"><i class="bx bxl-whatsapp"></i></a>
+                <a href="https://wa.me/917505580594" target="_blank" style="--i:8"><i class="bx bxl-whatsapp"></i></a>
                 <a href="https://twitter.com/Arunrajput64" target="_blank" style="--i:9"><i
                         class="bx bxl-twitter"></i></a>
                 <a href="#" style="--i:10"><i class='bx bxl-linkedin'></i></a>
                 <!-- <a href="#" style="--i:11"><i class='bx bxl-quora'></i></a> -->
                 <!-- <a href="#" target="_blank" style="--i:13"><i class='bx bxl-google-plus'></i></a> -->
             </div>
-            <a href="#contact" class="btn-box">Contact Me</a>
+            <a href="#contact" class="btn-box">Contact Me</a><br>
+            <div id="btn-book">
+                <button class="btn1" type="button" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
+                    <span id="span">Book Appointment</span>
+                    <div id="container-stars">
+                        <div id="stars"></div>
+                    </div>
+                </button>
+            </div>
         </div>
-        <div class="home-img">
-            <img src="homeside.jpg" alt="my image" width="450px">
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Fill Information to Book Appointment </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <form   action="https://formspree.io/f/mleyknwd"
+                    method="POST" id="myForm">
+                        <div class="modal-body flex-column flex-sm-row">
+                            <div class="flex">
+                                <div class="images">
+                                    <img src="image/Web_Photo_Editor.jpg" alt="image">
+                                </div>
+
+                                <div class="datas">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" name="name"
+                                            placeholder="Enter Your Name"  required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="number" class="form-control" maxlength="10" id="phone"
+                                            name="mobile" placeholder="Enter Your Mobile No." required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="type" name="makeup type"
+                                            placeholder="Enter Your Makeup Type" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="date" class="form-control" id="date" name="date"
+                                            placeholder="Enter Your Date" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control" id="message" name="message"
+                                            placeholder="Enter Your Message"></textarea>
+                                    </div>
+                                    <!-- <button type="submit" value="submit" class="send">submit</button>
+                                    <span id="msg"></span> -->
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="submit" onclick="submitForm()" value="submit" class="btn btn-primary">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
+
     </section>
 
 
     <section class="about" id="about">
         <div class="aboutflex">
             <div class="about-img">
-                <img id="1st-img" src="aboutside.jpg" alt="about">
+                <img id="1st-img" src="image/2339.jpg" alt="about">
             </div>
             <div class="about-content">
                 <h2>About <span>Me</span></h2>
-                <h4>Full Stack Developer</h4>
+                <h4>Professional Makeup Artist</h4>
                 <p>
-                    Crafting elegant web solutions from front-end to back-end, I am a passionate full-stack developer.
-                    With
-                    a keen eye for design and a love for coding, I transform ideas into interactive digital experiences.
-                    Explore my portfolio to witness a fusion of creativity and functionality. Your vision, my code.</p>
+                    Unleashing beauty through the art of makeup, I am a dedicated professional makeup artist who creates
+                    captivating looks for every occasion. From enhancing natural beauty to bold, creative expressions, I
+                    bring visions to life with my makeup artistry.
+                    Dive into my portfolio to witness a seamless blend of artistic flair and precision. Your unique
+                    style, my makeup magic.</p>
 
-                <a href="#" class="btn-box">More About Me</a>
+                <a href="#" class="btn-box">Discover My Artistry</a>
             </div>
         </div>
     </section>
@@ -99,37 +152,39 @@
     <section>
         <div class="services" id="services">
             <div class="container2">
-                <h1 class="sub-title">Unlock Your Full Potential with Our <span>Premium Services</span></h1>
+                <h1 class="sub-title">Unleash Your Beauty Potential with Our <span style="color: #ee9222;">Exquisite
+                        Services</span></h1>
                 <div class="services-list">
                     <div>
-                        <i class="fas fa-desktop" style="color: #00eeff;"></i>
-                        <h2>Web Development</h2>
-                        <p> Elevate your online presence with our cutting-edge web development services. Our team of
-                            experts creates
-                            stunning, user-friendly websites that leave a lasting impression. Whether you need a
-                            brand-new site or a
-                            revamp, we've got you covered. Let's bring your vision to life.</p>
-                        <a href="#" class="read">Learn More</a>
+                        <i class="fas fa-ring" style="color: #ff4081;"></i>
+                        <img class="serv-img" src="image/bride/images (4) - 2023-11-13T164308.618.jpeg" alt="bridal">
+                        <h2>Bridal Bliss</h2>
+                        <p>Capture the magic of your special day with our enchanting bridal makeup services. Our team of
+                            skilled makeup artists specializes in creating timeless and radiant bridal looks that
+                            enhance your natural beauty. From classic elegance to modern glamour, let us curate a bridal
+                            masterpiece that complements your style and leaves a lasting impression.</p>
+                        <a href="#" class="read">Discover Bridal Magic</a>
                     </div>
                     <div>
-                        <i class="fas fa-shopping-cart" style="color: #00eeff;"></i>
-                        <h2>E-Commerce Solution</h2>
-                        <p> Boost your online retail business with our tailored e-commerce solutions. We'll help you
-                            create a
-                            seamless shopping experience for your customers, from user-friendly product listings to
-                            secure
-                            payment processing. Elevate your online store today.</p>
-                        <a href="#" class="read">Learn More</a>
+                        <i class="fas fa-glass-cheers" style="color: #ff4081;"></i>
+                        <img class="serv-img" src="image/party/download (3).jpeg" alt="bridal">
+                        <h2>Party Perfection</h2>
+                        <p>Turn heads at every event with our party-perfect makeup services. Whether it's a night out
+                            with friends or a special celebration, our makeup artists are experts in creating
+                            show-stopping looks that radiate confidence and style. Elevate your party presence and make
+                            a statement with our curated makeup artistry.</p>
+                        <a href="#" class="read">Party-Ready Glam</a>
                     </div>
                     <div>
-                        <i class="fas fa-paint-brush" style="color: #00eeff;"></i>
-                        <h2>Graphic Design</h2>
-                        <p> Visuals speak louder than words. Our graphic design team transforms ideas into captivating
-                            visual content.
-                            Logos, branding, marketing materials – we craft designs that resonate with your audience.
-                            Let's turn your
-                            brand into a work of art.</p>
-                        <a href="#" class="read">Learn More</a>
+                        <i class="fas fa-star" style="color: #ff4081;"></i>
+                        <img class="serv-img" src="image/special effect/634f4c06f21696e78ac330afa4d22931.jpg"
+                            alt="bridal">
+                        <h2>Celebrity Glamour</h2>
+                        <p>Indulge in the allure of celebrity-inspired beauty with our exclusive celebrity glamour
+                            services. From red carpet events to high-profile appearances, our makeup artists will bring
+                            the essence of star power to your look. Unveil your inner celebrity and experience the
+                            glamour of Hollywood with our signature touch.</p>
+                        <a href="#" class="read">Red Carpet Radiance</a>
                     </div>
                 </div>
             </div>
@@ -137,46 +192,47 @@
     </section>
 
 
+
     <h1 class="sub-title">My <span>Skills</span></h1>
-    <section>
+    <section class="skill">
         <div class="container1" id="skills">
-            <h1 class="heading1">Technical Skills</h1>
+            <h1 class="heading1">Makeup Artistry Skills</h1>
             <div class="technical-bars">
-                <div class="bar"> <i class='bx bxl-html5'></i>
+                <div class="bar"> <i class='bx bxs-face'></i>
                     <div class="info">
-                        <span>HTML</span>
+                        <span>Bridal Makeup</span>
                     </div>
                     <div class="progress-line html">
                         <span></span>
                     </div>
                 </div>
-                <div class="bar"> <i class='bx bxl-css3'></i>
+                <div class="bar"> <i class='bx bx-palette'></i>
                     <div class="info">
-                        <span>CSS</span>
+                        <span>Party Makeup</span>
                     </div>
                     <div class="progress-line css">
                         <span></span>
                     </div>
                 </div>
-                <div class="bar"> <i class='bx bxl-javascript'></i>
+                <div class="bar"> <box-icon type='solid' name='face-mask'></box-icon>
                     <div class="info">
-                        <span>JAVASCRIPT</span>
+                        <span>Celebrity Makeup</span>
                     </div>
                     <div class="progress-line javascript">
                         <span></span>
                     </div>
                 </div>
-                <div class="bar"> <i class='bx bxl-python'></i>
+                <div class="bar"> <box-icon type='solid' name='leaf'></box-icon>
                     <div class="info">
-                        <span>PYTHON</span>
+                        <span>Special Effects</span>
                     </div>
                     <div class="progress-line python">
                         <span></span>
                     </div>
                 </div>
-                <div class="bar"> <i class='bx bxl-django'></i>
+                <div class="bar"> <i class='bx bxs-brush'></i>
                     <div class="info">
-                        <span>DJANGO</span>
+                        <span>Airbrush Makeup</span>
                     </div>
                     <div class="progress-line django">
                         <span></span>
@@ -193,24 +249,8 @@
                         <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
                         <circle class="path path-1" cx="100" cy="100" r="80"></circle>
                     </svg>
-                    <div class="percentage">90%</div>
-                    <div class="text">creativity</div>
-                </div>
-                <div class="radial-bars">
-                    <svg x="0px" viewBox="0 0 200 200">
-                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
-                    </svg>
-                    <div class="percentage">65%</div>
-                    <div class="text">Communication</div>
-                </div>
-                <div class="radial-bars">
-                    <svg x="0px" viewBox="0 0 200 200">
-                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
-                    </svg>
-                    <div class="percentage">75%</div>
-                    <div class="text">Problem Solving</div>
+                    <div class="percentage">95%</div>
+                    <div class="text">Creativity</div>
                 </div>
                 <div class="radial-bars">
                     <svg x="0px" viewBox="0 0 200 200">
@@ -218,7 +258,23 @@
                         <circle class="path path-1" cx="100" cy="100" r="80"></circle>
                     </svg>
                     <div class="percentage">85%</div>
-                    <div class="text">Team Work</div>
+                    <div class="text">Communication</div>
+                </div>
+                <div class="radial-bars">
+                    <svg x="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">80%</div>
+                    <div class="text">Adaptability</div>
+                </div>
+                <div class="radial-bars">
+                    <svg x="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="text">Client Relations</div>
                 </div>
             </div>
         </div>
@@ -227,72 +283,152 @@
     <section class="project" id="project">
         <div id="portfolio">
             <div class="main-text">
-                <h2>Latest <span>projects</span></h2>
+                <h2>Discover My <span style="color: #ee9222;">Artistic Creations</span></h2>
+                <h4>Note : click Image to see all <span style="color: #ee9222;">galary images</span></h4>
 
                 <div class="portfolio-content">
                     <!-- Project 1 -->
                     <div class="row">
                         <div class="slideshow">
-                            <img src="vinayak 2.0.png" alt="project">
-                            <img src="vinayak 1.png" alt="project">
-                            <img src="vinayak 3.png" alt="project">
+                            <img src="image/bride/images-bride.jpeg" alt="Bridal Makeup Look" height="400px"
+                                width="340px">
+                            <img src="image/bride/download (2).jpeg" alt="Bridal Makeup Look" height="400px"
+                                width="340px">
+                            <!-- <img src="image/bride/images (4) - 2023-11-13T164308.618.jpeg" alt="Bridal Makeup Look" height="400px"
+                                width="340px">-->
                         </div>
                         <div class="layer">
-                            <h2>E-commerce Website</h2>
+                            <h2>Bridal Glam</h2>
                         </div>
                     </div>
-                    <a href="https://xzqiiwtmbjlb4kwwrofatg.on.drv.tw/bubble game/" target="_blank">
-                        <!-- Project 2 -->
+                    <!-- <a href="https://example-link.com" target="_blank"> -->
+                    <!-- Project 2 -->
+                    <div class="row">
+                        <div class="slideshow">
+                            <img src="image/party/download (3).jpeg" alt="Party Makeup Look" height="400px"
+                                width="340px">
+                            <img src="image/party/images (4) - 2023-11-13T164356.306.jpeg" alt="Party Makeup Look"
+                                height="400px" width="340px">
+                        </div>
+                        <div class="layer">
+                            <h2>Party Elegance</h2>
+                        </div>
+                    </div>
+                    <!-- </a> -->
+                    <!-- <a href="https://example-link.com" target="_blank"> -->
+                    <!-- Project 3 -->
+                    <div class="row">
+                        <div class="slideshow">
+                            <img src="image/air brush/1.jpg" alt="Airbrush Makeup" height="400px" width="340px">
+                            <img src="image/air brush/tumblr_e21db37415511e85ce845afec1cdb9cf_780e94e4_1280.jpg"
+                                alt="Airbrush Makeup" height="400px" width="340px">
+                        </div>
+                        <div class="layer">
+                            <h2> Airbrush Mastery</h2>
+                        </div>
+                    </div>
+                    <!-- </a> -->
+
+                    <!-- Hidden projects -->
+                    <!-- <a href="https://example-link.com" target="_blank"> -->
+                    <div class="hidden">
+                        <!-- Project 4 (hidden) -->
                         <div class="row">
                             <div class="slideshow">
-                                <img src="Bubble 1.png" alt="pr">
-                                <img src="Bubble 2.png" alt="pr">
+                                <img src="image/special effect/634f4c06f21696e78ac330afa4d22931.jpg"
+                                    alt="Special Effects Makeup" height="400px" width="340px">
+                                <!-- <img src="image/special-effects-2.png" alt="Special Effects Makeup" height="400px"
+                                        width="340px"> -->
                             </div>
                             <div class="layer">
-                                <h2>Bubble Game</h2>
+                                <h2>Special Effects Magic</h2>
                             </div>
                         </div>
+                    </div>
+                    <!-- </a> -->
+                    <!-- <a href="https://example-link.com" target="_blank">
+                        <div class="hidden">
+                            <!-- Project 5 (hidden)
+                            <div class="row">
+                                <div class="slideshow">
+                                    <img src="image/celebrity-makeup-1.png" alt="Celebrity Inspired Makeup"
+                                        height="400px" width="340px">
+                                    <img src="image/celebrity-makeup-2.png" alt="Celebrity Inspired Makeup"
+                                        height="400px" width="340px">
+                                    <img src="image/celebrity-makeup-3.png" alt="Celebrity Inspired Makeup"
+                                        height="400px" width="340px">
+                                </div>
+                                <div class="layer">
+                                    <h2>Celebrity Glam</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </a> -->
+                </div>
+            </div>
+        </div>
+        <!-- "View More" button to show hidden projects -->
+        <button id="view-more-button" class="toggle-button" onclick="toggleProjects()">View More</button>
+        <button id="view-less-button" class="toggle-button" style="display: none" onclick="toggleProjects()">View
+            Less</button>
+    </section>
+
+    <section class="price" id="price">
+        <div id="portfolio">
+            <div class="main-text">
+                <h2>Discover <span style="color: #ee9222;">Price List</span></h2>
+                <h4>Note : click Image to know more about <span style="color: #ee9222;">Price List</span></h4>
+
+                <div class="portfolio-content">
+                    <!-- Project 1 -->
+                    <a href="price1.html">
+                        <div class="row">
+                            <div class="price">
+                                <img src="image/air brush/tumblr_e21db37415511e85ce845afec1cdb9cf_780e94e4_1280.jpg"
+                                    alt="Bridal Makeup Look" height="400px" width="350px">
+                            </div>
+                            <h3>Bridal / Reception Makeup</h3><br>
+                            <p>Price : Rs.15000-20000</p><br>
+                            <!-- <button class="btn-box">Know More</button> -->
+                        </div>
                     </a>
-                    <a href="https://arunrajput.pythonanywhere.com/" target="_blank">
+                    <a href="price2.html">
+                        <!-- Project 2 -->
+                        <div class="row">
+                            <div class="price">
+                                <img src="image/party/download (4).jpeg" alt="Party Makeup Look" height="400px"
+                                    width="350px">
+                            </div>
+                            <h3>Engagement /Sangeet/ Cocktail Makeup</h3>
+                            <p>price : Rs.10000-15000</p>
+                            <!-- <button class="btn-box">Know More</button> -->
+                        </div>
+                    </a>
+                    <a href="price3.html">
                         <!-- Project 3 -->
                         <div class="row">
-                            <div class="slideshow">
-                                <img src="blog 1.png" alt="project">
-                                <img src="blog 2.png" alt="project">
-                                <img src="blog 3.png" alt="project">
+                            <div class="price">
+                                <img src="image/bride/images-bride.jpeg" alt="Airbrush Makeup" height="400px"
+                                    width="350px">
                             </div>
-                            <div class="layer">
-                                <h2>Blog Website</h2>
-                            </div>
+                            <h3>Party Makeup</h3>
+                            <p>price : Rs.2000-4000</p>
+                            <!-- <button class="btn-box">Know More</button> -->
                         </div>
                     </a>
 
                     <!-- Hidden projects -->
-                    <a href="https://arundp.pythonanywhere.com/" target="_blank">
+                    <a href="price4.html">
                         <div class="hidden">
                             <!-- Project 4 (hidden) -->
                             <div class="row">
-                                <div class="slideshow">
-                                    <img src="ssc3.png" alt="project">
-                                    <img src="ssc2.png" alt="project">
+                                <div class="price">
+                                    <img src="image/party/images (4) - 2023-11-13T164356.306.jpeg"
+                                        alt="Celebrity Inspired Makeup" height="400px" width="350px">
                                 </div>
-                                <div class="layer">
-                                    <h2>SSC PORTAL WEBSITE</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="https://vehicleportal.netlify.app/" target="_blank">
-                        <div class="hidden">
-                            <!-- Project 5 (hidden) -->
-                            <div class="row">
-                                <div class="slideshow">
-                                    <img src="Screenshot (59).png" alt="project">
-                                    <img src="Screenshot (60).png" alt="project">
-                                </div>
-                                <div class="layer">
-                                    <h2>VEHICLE PORTAL</h2>
-                                </div>
+                                <h3>Haldi / Mehandi Makeup</h3>
+                                <p>price : Rs.5000-8000</p>
+                                <!-- <button class="btn-box">Know More</button> -->
                             </div>
                         </div>
                     </a>
@@ -311,8 +447,8 @@
             <h4>Let's work Together</h4>
             <p>Ready to collaborate on your next big project? Reach out to me, and let's transform your ideas, business
                 into exceptional digital experiences. I'm just an email away at <a
-                    href="mailto:arunrajput01290@gmail.com" target="_blank"
-                    style="text-decoration: none;">arunrajput01290@gmail.com</a>. Whether it's web development, design,
+                    href="mailto:artirajput0123@gmail.com" target="_blank"
+                    style="text-decoration: none;">artirajput0123@gmail.com</a>. Whether it's web development, design,
                 or any tech-related endeavor, I'm here to turn your vision into reality. Don't hesitate – let's get
                 started today!</p>
 
@@ -320,10 +456,10 @@
                 <div class="contact-form">
                     <form name="submit-to-google-sheet">
                         <input type="text" name="Name" placeholder="Enter Your Name" required>
-                        <input type="tel" name="Phone" id="mobileNumberInput" placeholder="Enter Your Mobile Number"
-                            required>
-                        <input type="email" name="Email" placeholder="Enter Your Email" required>
-                        <input type="text" name="Subject" placeholder="Enter Your Subject">
+                        <input type="number" name="Phone" pattern="[0-9]{1,10}" maxlength="10"
+                            placeholder="Enter Your Mobile number">
+                        <input type="text" name="makeup type" placeholder="Enter makeup type" required>
+                        <input type="date" name="Date" placeholder="Enter Your Date">
                         <textarea name="Message" id="Message" cols="40" rows="10" placeholder="Enter Your Message"
                             required></textarea>
                         <input type="submit" value="Submit" class="send">
@@ -335,107 +471,35 @@
     </section>
 
     <div class="last-text">
-        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, odio!</p> -->
-
-        <div class="elementor-element elementor-element-1653ed8 e-flex e-con-boxed e-con" data-id="1653ed8"
-            data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
-            <div class="e-con-inner">
-                <div class="elementor-element elementor-element-e9cb1fe elementor-widget__width-inherit elementor-widget elementor-widget-heading"
-                    data-id="e9cb1fe" data-element_type="widget" data-widget_type="heading.default">
-                    <div class="elementor-widget-container">
-                        <div class="elementor-heading-title elementor-size-default">Blogs</div>
+        <div class="footer-flex">
+            <div class="footer">
+                <h2 style="color: #ee9222; margin: 0 5%; font-size: 50px;">Arti Rajput</h2>
+                <p style="    text-shadow: 0 0 4px #fff;">Arti, the freelancer makeup artist, enhances your natural
+                    beauty with precision and flair. Your go-to
+                    choice for all your makeup needs!</p>
+            </div>
+            <div class="footer1">
+                <h3 style="color: #ee9222;  margin: 0 5%; font-size: 50px;">Get In Touch</h3>
+                <i class="bx bxs-phone custom-icon"></i>
+                <span style="font-size: 30px; text-shadow: 0 0 4px #fff;">7505580594</span><br>
+                <!-- <i class="bx bxs-envelope custom-icon"></i> -->
+                <!-- <span style="font-size: 30px; text-shadow: 0 0 4px #fff;">artirajput0123@gmail.com</span> -->
+                <i class='bx bx-current-location custom-icon'></i>
+                <span style="font-size: 30px; text-shadow: 0 0 4px #fff;">(Agra, U.P.) India</span>
+            </div>
+            <div class="button-center">
+                <button class="btn1" type="button" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
+                    <span id="span">Book Appointment</span>
+                    <div id="container-stars">
+                        <div id="stars"></div>
                     </div>
-                </div>
-                <div class="elementor-element elementor-element-e09c53d elementor-widget elementor-widget-sitemap"
-                    data-id="e09c53d" data-element_type="widget" data-widget_type="sitemap.default">
-                    <div class="elementor-widget-container">
-                        <link rel="stylesheet"
-                            href="https://www.heshtechnologies.com/wp-content/plugins/elementor-pro/assets/css/widget-theme-elements.min.css">
-                        <div class="elementor-sitemap-wrap">
-                            <div class="elementor-sitemap-section">
-                                <!-- <div class="elementor-sitemap-title elementor-sitemap-post-title">.</div> -->
-                                <ul class="elementor-sitemap-list elementor-sitemap-post-list">
-                                    <li
-                                        class="elementor-sitemap-item elementor-sitemap-item-post page_item page-item-1729 menu-item">
-                                        <a href="https://www.heshtechnologies.com/best-ai-website-builders"
-                                            class="elementor-sitemap-item elementor-sitemap-item-post menu-link">Best AI
-                                            Website Builders</a>
-                                    </li>
-                                    <li
-                                        class="elementor-sitemap-item elementor-sitemap-item-post page_item page-item-1501 menu-item">
-                                        <a href="https://www.heshtechnologies.com/how-to-make-a-responsive-website-for-mobile"
-                                            class="elementor-sitemap-item elementor-sitemap-item-post menu-link">How to
-                                            make
-                                            a responsive website for mobile</a>
-                                    </li>
-                                    <li
-                                        class="elementor-sitemap-item elementor-sitemap-item-post page_item page-item-1480 menu-item">
-                                        <a href="https://www.heshtechnologies.com/the-ultimate-guide-to-the-top-9-wordpress-themes-for-blogging"
-                                            class="elementor-sitemap-item elementor-sitemap-item-post menu-link">The
-                                            Ultimate Guide To The Top 9 WordPress Themes For Blogging</a>
-                                    </li>
-                                    <li
-                                        class="elementor-sitemap-item elementor-sitemap-item-post page_item page-item-1465 menu-item">
-                                        <a href="https://www.heshtechnologies.com/mobile-app-development-for-restaurants"
-                                            class="elementor-sitemap-item elementor-sitemap-item-post menu-link">Mobile
-                                            App
-                                            Development for Restaurants</a>
-                                    </li>
-                                    <li
-                                        class="elementor-sitemap-item elementor-sitemap-item-post page_item page-item-1439 menu-item">
-                                        <a href="https://www.heshtechnologies.com/9-tips-to-create-a-responsive-wordpress-website-in-2023"
-                                            class="elementor-sitemap-item elementor-sitemap-item-post menu-link">9 Tips
-                                            To
-                                            Create a Responsive WordPress Website In 2023</a>
-                                    </li>
-                                    <li
-                                        class="elementor-sitemap-item elementor-sitemap-item-post page_item page-item-1378 menu-item">
-                                        <a href="https://www.heshtechnologies.com/top-13-responsive-website-builders-of-2023"
-                                            class="elementor-sitemap-item elementor-sitemap-item-post menu-link">Top 13
-                                            Responsive Website Builders of 2023</a>
-                                    </li>
-                                    <li
-                                        class="elementor-sitemap-item elementor-sitemap-item-post page_item page-item-1356 menu-item">
-                                        <a href="https://www.heshtechnologies.com/discover-the-7-proven-steps-for-building-your-own-website"
-                                            class="elementor-sitemap-item elementor-sitemap-item-post menu-link">Discover
-                                            the 7 Proven Steps for Building Your Own Website!</a>
-                                    </li>
-                                    <li
-                                        class="elementor-sitemap-item elementor-sitemap-item-post page_item page-item-1171 menu-item">
-                                        <a href="https://www.heshtechnologies.com/ultimate-guide-to-becoming-a-web-designer-without-coding"
-                                            class="elementor-sitemap-item elementor-sitemap-item-post menu-link">Ultimate
-                                            Guide to Becoming a Web Designer Without Coding</a>
-                                    </li>
-                                    <li
-                                        class="elementor-sitemap-item elementor-sitemap-item-post page_item page-item-1134 menu-item">
-                                        <a href="https://www.heshtechnologies.com/custom-web-application-development-for-restaurants"
-                                            class="elementor-sitemap-item elementor-sitemap-item-post menu-link">Custom
-                                            Web
-                                            Application Development for Restaurants</a>
-                                    </li>
-                                    <li
-                                        class="elementor-sitemap-item elementor-sitemap-item-post page_item page-item-1123 menu-item">
-                                        <a href="https://www.heshtechnologies.com/how-to-become-a-web-developer-without-a-degree"
-                                            class="elementor-sitemap-item elementor-sitemap-item-post menu-link">How To
-                                            Become A Web Developer Without A Degree&ZeroWidthSpace;&ZeroWidthSpace;</a>
-                                    </li>
-                                    <li
-                                        class="elementor-sitemap-item elementor-sitemap-item-post page_item page-item-1098 menu-item">
-                                        <a href="https://www.heshtechnologies.com/e-commerce-web-development-for-restaurants"
-                                            class="elementor-sitemap-item elementor-sitemap-item-post menu-link">E-commerce
-                                            Web Development for Restaurants, Enhancing Online Presence and Revenue</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </button>
             </div>
         </div>
         <div class="home-sci-fi">
             <a href="https://www.instagram.com/arunrajput64/" target="_blank" style="--i:7"><i
                     class="bx bxl-instagram"></i></a>
-            <a href="https://wa.me/917668279903" target="_blank" style="--i:8"><i class="bx bxl-whatsapp"></i></a>
+            <a href="https://wa.me/917505580594" target="_blank" style="--i:8"><i class="bx bxl-whatsapp"></i></a>
             <a href="https://twitter.com/Arunrajput64" target="_blank" style="--i:9"><i class="bx bxl-twitter"></i></a>
             <a href="#" style="--i:10"><i class='bx bxl-linkedin'></i></a>
             <a href="#" style="--i:11"><i class='bx bxl-quora'></i></a>
@@ -453,10 +517,8 @@
             </div>
         </div>
     </div>
-
-
-
     <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i> </a>
+
 
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
