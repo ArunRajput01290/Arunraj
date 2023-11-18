@@ -125,7 +125,7 @@ nav {
         align-items: center;
         text-align: center;
         overflow: auto;
-        height: 150vh;
+        height: 100vh;
     }
     .panel {
         width: 70%;
@@ -1221,6 +1221,7 @@ form textarea {
 .last-text {
     background: rgb(7, 85, 91);
     margin-top: 5%;
+    padding-bottom: 17%;
 }
 
 .elementor-element {
